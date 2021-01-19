@@ -1,0 +1,110 @@
+{
+	"id": "533881ce-3ddd-41ae-807e-cccd91218246",
+	"name": "Postman Test Collection",
+	"timestamp": "2020-12-12T22:50:37.615Z",
+	"collection_id": "eff211b6-c8d2-458d-b34f-31a17d52ab60",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3c7d234d-f31d-40fe-8d25-4c9efaacdce4",
+			"name": "{{url}}/users",
+			"time": 59,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check if user with id1 is Leanne Graham": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Check if user with id1 is Leanne Graham": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				272,
+				55,
+				59
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check if user with id1 is Leanne Graham": true
+				},
+				{
+					"Status code is 200": true,
+					"Check if user with id1 is Leanne Graham": true
+				},
+				{
+					"Status code is 200": true,
+					"Check if user with id1 is Leanne Graham": true
+				}
+			]
+		},
+		{
+			"id": "3ebe0443-7b47-41e2-b34e-a6c77ae47df2",
+			"name": "{{url}}/users",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check if user with id1 is Leanne Graham": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Check if user with id1 is Leanne Graham": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				62,
+				56,
+				57
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check if user with id1 is Leanne Graham": true
+				},
+				{
+					"Status code is 200": true,
+					"Check if user with id1 is Leanne Graham": true
+				},
+				{
+					"Status code is 200": true,
+					"Check if user with id1 is Leanne Graham": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 561,
+	"collection": {
+		"requests": [
+			{
+				"id": "3c7d234d-f31d-40fe-8d25-4c9efaacdce4",
+				"method": "GET"
+			},
+			{
+				"id": "3ebe0443-7b47-41e2-b34e-a6c77ae47df2",
+				"method": "GET"
+			}
+		]
+	}
+}
